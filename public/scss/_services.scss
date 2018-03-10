@@ -1,0 +1,17 @@
+// Styling for the services section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+#services{
+  .timeline-image{
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+    background-repeat:no-repeat !important;
+    min-height:350px !important;
+    width:100% !important;
+  }
+  .text-muted{
+    margin-top:20px !important;
+  }
+}
