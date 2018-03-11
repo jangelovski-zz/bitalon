@@ -50,7 +50,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 
@@ -97,6 +97,25 @@ img::-moz-selection {
   background: transparent;
 }
 
+.victims-data-table .dataTable {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.victims-data-table .dataTable tbody td {
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.victims-data-table .dataTable tbody td a {
+  color: #41bda0;
+}
+
+.victims-data-table .dataTable tbody td.no-data {
+  color: #ce0303;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 #mainNav {
   background-color: #212529 !important;
   padding-top: 0 !important;
@@ -116,12 +135,12 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #4bd1a0;
-  letter-spacing: 15px;
+  letter-spacing: 5px;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #e6e6e6;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -170,10 +189,11 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/monastir.png");
+  background-image: url("../img/final-map.gif");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -756,7 +776,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #41bda0;
 }
 
 .navbar .navbar-brand {

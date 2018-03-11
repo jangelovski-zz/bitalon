@@ -2,10 +2,11 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/monastir.png');
+  background-image: url('../img/final-map.gif');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  height: 100vh;
   @include background-cover;
   .intro-text {
     padding-top: 150px;

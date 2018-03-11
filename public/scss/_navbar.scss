@@ -15,13 +15,13 @@
   }
   .navbar-brand {
     color: rgba(75, 209, 160, 1);
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken(#fff, 10%);
     }
   }
   .navbar-nav {
