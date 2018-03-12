@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>March Of The Living</title>
+    <title>Datalon</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -199,14 +199,11 @@
 </section>
 
 <script>
-
     $ = jQuery;
     $(document).ready(function () {
-
         $('.victims-data-table table').DataTable({
             "pagingType": "full_numbers"
         });
-
     })
 </script>
 
@@ -286,29 +283,29 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                        </div>
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
                     </div>
-                    <img class="img-fluid" src="img/FCP_3520.jpg" alt="">
+                </div>
+                <img class="img-fluid" src="img/FCP_3520.jpg" alt="">
                 <div class="portfolio-caption">
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                        </div>
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
                     </div>
-                    <img class="img-fluid" src="img/FCP_3543.jpg" alt="">
+                </div>
+                <img class="img-fluid" src="img/FCP_3543.jpg" alt="">
                 <div class="portfolio-caption">
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                        </div>
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
                     </div>
-                    <img class="img-fluid" src="img/FCP_3600.jpg" alt="">
+                </div>
+                <img class="img-fluid" src="img/FCP_3600.jpg" alt="">
                 <div class="portfolio-caption">
                 </div>
             </div>
